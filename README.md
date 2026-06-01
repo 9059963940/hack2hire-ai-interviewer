@@ -23,19 +23,23 @@ This platform solves all the above using AI + state-based simulation.
 Extracts skills, experience, and project details from resume
 Analyzes Job Description requirements
 Computes skill match score
+
 🤖 AI Interview Engine
 Generates:
 Technical questions
 Behavioral questions
 Scenario-based questions
 Adapts difficulty dynamically (Easy → Medium → Hard)
+
 ⏱️ Time-Aware Evaluation
 Fixed time per question
 Penalizes delayed or incomplete responses
+
 🧠 Adaptive Interview Logic
 Increases difficulty for strong answers
 Reduces difficulty for weak answers
 Maintains interview state throughout session
+
 📊 Smart Scoring System
 
 Evaluates each response based on:
@@ -45,11 +49,13 @@ Clarity
 Depth
 Relevance
 Time efficiency
+
 🧾 Final Output
 Interview Readiness Score (0–100)
 Skill-wise breakdown
 Strengths & weaknesses
 Hiring recommendation
+
 🏗️ System Architecture
 Frontend (Next.js)
         ↓
@@ -66,6 +72,7 @@ Answer Evaluation Engine
 Scoring & Readiness Module
         ↓
 Final Report Generator
+
 🧑‍💻 Tech Stack
 Frontend
 Next.js (React)
@@ -80,6 +87,7 @@ Libraries
 PyPDF (Resume parsing)
 Pandas / NumPy
 Scikit-learn (optional scoring logic)
+
 📂 Project Structure
 Hack2Hire/
 │
@@ -101,10 +109,14 @@ Hack2Hire/
 │
 ├── README.md
 └── requirements.txt
+
+
 🚀 How to Run Locally
+
 1️⃣ Clone Repository
 git clone https://github.com/your-username/hack2hire-ai-interviewer.git
 cd hack2hire-ai-interviewer
+
 2️⃣ Backend Setup
 cd backend
 python -m venv venv
@@ -115,6 +127,8 @@ uvicorn main:app --reload
 Backend runs at:
 
 http://localhost:8000
+
+
 3️⃣ Frontend Setup
 cd frontend
 npm install
@@ -123,3 +137,4 @@ npm run dev
 Frontend runs at:
 
 http://localhost:3000
+
